@@ -6,7 +6,7 @@
 
 Dushnila is a playful, interactive desktop assistant. Give him two monitors and he’ll make himself at home on both, hopping between screens and occasionally rearranging a couple of shortcuts. Start an SSH session and he puts on his hard hat. Open Google Chat and he stands beside it, hands in his pockets, with a comment of his own. When it’s time for a smoke break, he knocks on the glass.
 
-![Dushnila puts on his hard hat, knocks on the screen and comments on Google Chat](docs/desk.gif)
+![Dushnila puts on his hard hat, knocks, checks Google Chat, kicks the VS Code shortcut, laughs and takes a smoke break](docs/desk.gif)
 
 ## Downloads
 
