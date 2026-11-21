@@ -1,0 +1,25 @@
+name: Publish v13
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/publish-v13.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify original builds
+        working-directory: downloads
+        run: sha256sum -c SHA256SUMS
+      - name: Publish Linux and Windows builds
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view v13 >/dev/null 2>&1; then
+            exit 0
+          fi
+          gh release create v13 downloads/dushnila-desktop-v13.zip downloads/DushnilaPet-v13-clickfix2.exe downloads/SHA256SUMS \
+            --target "$GITHUB_SHA" --title "Душнила Pet v13 · Linux & Windows" --notes-file CHANGELOG.md

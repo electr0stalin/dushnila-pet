@@ -1,0 +1,16 @@
+<schemalist><schema id="org.gnome.shell.extensions.dushnila" path="/org/gnome/shell/extensions/dushnila/">
+<key name="auto-knock" type="b"><default>true</default><summary>Стучать по таймеру</summary></key>
+<key name="minutes" type="i"><range min="1" max="180"/><default>15</default><summary>Интервал между стуками, мин</summary></key>
+<key name="sound" type="b"><default>true</default><summary>Звук стука</summary></key>
+<key name="rage" type="b"><default>true</default><summary>Включать берсерка после кликов</summary></key>
+<key name="clicks" type="i"><range min="2" max="100"/><default>16</default><summary>Кликов до берсерка</summary></key>
+<key name="rage-seconds" type="i"><range min="1" max="180"/><default>30</default><summary>Общая длительность берсерка, с</summary></key>
+<key name="hold-seconds" type="i"><range min="1" max="30"/><default>6</default><summary>Максимальное удержание курсора, с</summary></key>
+<key name="icons" type="b"><default>true</default><summary>Двигать, пинать и менять ярлыки местами</summary></key>
+<key name="jumps" type="b"><default>true</default><summary>Прыгать между мониторами</summary></key>
+<key name="jump-every" type="i"><range min="1" max="30"/><default>6</default><summary>Самостоятельных действий между прыжками</summary></key>
+<key name="stories" type="b"><default>true</default><summary>Устраивать сценки</summary></key>
+<key name="glasses" type="b"><default>true</default><summary>Терять очки на десятом клике</summary></key>
+<key name="ssh" type="b"><default>true</default><summary>Надевать каску при SSH</summary></key>
+<key name="chat" type="b"><default>true</default><summary>Реагировать на Google Chat</summary></key>
+</schema></schemalist>
