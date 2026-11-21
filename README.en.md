@@ -4,9 +4,9 @@
 
 > “It works on my machine!”
 
-A grumpy, bespectacled desktop pet with a DevOps habit. Click him ten times and he drops his glasses, calls for Max and stumbles across the screen looking for them. At sixteen clicks, he starts chasing your pointer. Every fifteen minutes he knocks on the glass to ask if you’re taking a smoke break. His lines appear in Russian speech bubbles. The knock is the only sound.
+Dushnila is a playful, interactive desktop assistant. Give him two monitors and he’ll make himself at home on both, hopping between screens and occasionally rearranging a couple of shortcuts. Start an SSH session and he puts on his hard hat. Open Google Chat and he stands beside it, hands in his pockets, with a comment of his own. When it’s time for a smoke break, he knocks on the glass.
 
-![Dushnila trips while searching for his glasses](docs/fall.gif)
+![Dushnila puts on his hard hat, knocks on the screen and comments on Google Chat](docs/desk.gif)
 
 ## Downloads
 
